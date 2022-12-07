@@ -27,6 +27,7 @@ int main()
 {
     int array[] = {2, 4, 5, 3, 8};
     int size = sizeof(array) / sizeof(int);
+    cout<<"before function :<<endl;
     printArray(array, size);
     swapAlternate(array, size);
     cout<< "the updated array is: <<endl;
@@ -35,7 +36,7 @@ int main()
 
     return 0;
 }
-
+ 
 
 
 
