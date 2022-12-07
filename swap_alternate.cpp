@@ -30,7 +30,7 @@ int main()
     cout<<"before function :<<endl;
     printArray(array, size);
     swapAlternate(array, size);
-    cout<< "the updated array is: <<endl;
+    cout<< "the updated array: <<endl;
     printArray(array, size);
 
 
